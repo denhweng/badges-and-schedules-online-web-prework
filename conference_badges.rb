@@ -12,6 +12,7 @@ end
 def assign_rooms(attendees)
   greeting = []
   attendees.each_with_index { |name, index| "Hello, #{name}! You'll be assigned to room #{index}!" }
+  greeting << attendees.each_with_index
 end
 
 def printer(attendees)
