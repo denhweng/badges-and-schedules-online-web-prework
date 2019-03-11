@@ -10,9 +10,7 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(attendees)
-  greeting = []
   attendees.map_with_index { |name, index| greeting << "Hello, #{name}! You'll be assigned to room #{index + 1}!" }
-  greeting
 end
 
 def printer(attendees)
