@@ -11,7 +11,7 @@ end
 
 def assign_rooms(attendees)
   greeting = []
-  new_array.map = attendees.each_with_index { |name, index| "Hello, #{name}! You'll be assigned to room #{index}!" }
+  attendees.each_with_index.map { |name, index| "Hello, #{name}! You'll be assigned to room #{index}!" }
   greeting << new.array
 end
 
